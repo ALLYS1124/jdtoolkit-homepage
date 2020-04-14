@@ -4,9 +4,18 @@ body {
 	font-size: 12px;
 	padding: 1em;
 	text-align: center;
-	font-family: "linotype-didot", serif;
+	font-family:
+	"linotype-didot", serif;
 	font-style: normal;
 	font-weight: 400;
+}
+
+h1{
+	text-align: center;
+	color: #444
+	font-family: "oskar-inline", sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 
 .main-hed {
