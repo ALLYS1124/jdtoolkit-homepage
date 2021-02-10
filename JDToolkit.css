@@ -1,20 +1,39 @@
 body {
-	background-color: #fefefe;
+	background-color:#D4E49C;
 	margin: 1em auto;
-	font-size: 10px;
+	font-size: 12px;
 	padding: 1em;
 	text-align: center;
-	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family:
+	"voluta-script-pro", serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
-h1 {
-	color: #555;
-	font-size: 3em;
+h1{
+	text-align: center;
+	color: #444
+	font-family: "ltc-bodoni-175", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+  font-size: 4em;
+  background-color: #ffcfe9;
+	box-shadow: 5px 8px;
 }
+
+
+.main-hed {
+	justify-content: center;
+	text-align: center;
+	color: #black;
+	font-size: 3em;
+	padding-top: 15px;
+}
+
 
 p {
 	color: #444;
-	max-width: 30em;
+	max-width: 20em;
 	width: 100%;
 	text-align: left;
 	margin: 1em auto;
@@ -25,7 +44,29 @@ p {
 img.logo {
 	width: 100%;
 	height: auto;
-	max-width: 40em;
+	max-width: 20em;
 	max-height: 40em;
 	margin: 2em auto;
+	padding-top: 50px
+}
+
+ul {
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	position: absolute;
+}
+
+li {
+	display: inline;
+	float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
+  border-radius: 4px;
 }
